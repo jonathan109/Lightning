@@ -17,7 +17,6 @@ void draw()
      line(startX, startY, endX, endY);
      startX = endX;
      startY = endY;
-     background(0);
    } 
 }
 void mousePressed()
@@ -26,5 +25,5 @@ void mousePressed()
   startY = 0;
   endX = 150;
   endY = 150;
-  background(205);
+  background(0);
 }
